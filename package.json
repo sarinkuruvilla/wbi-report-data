@@ -18,6 +18,7 @@
   "homepage": "https://github.com/sarinkuruvilla/wbi-charts-2015#readme",
   "devDependencies": {
     "browser-sync": "^2.9.6",
+    "event-stream": "^3.3.1",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
