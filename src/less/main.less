@@ -1,11 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
 html,body {
     margin: 0;
     padding: 0;
-
+    font-family: 'Roboto Condensed', sans-serif !important;
     .container {
         min-width: 310px;
         height: 400px;
         max-width: 800px;
         margin: 0 auto;
+    }
+    .highcharts-series-group {
+    }
+    .highcharts-markers {
+        path {
+            mix-blend-mode: multiply;
+        }
+    }
+    table.history {
+        text-align: center;
+        color: #ccc;
+        td.year-value {
+            color: #000;
+            font-weight: bold;
+        }
     }
 }
