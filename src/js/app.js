@@ -3,6 +3,8 @@ $(function () {
         chart: {
             type: 'scatter',
             zoomType: 'xy',
+            marginRight: 15,
+            marginTop: 20,
             style: {
                 fontFamily: 'Roboto Condensed'
             }
@@ -26,7 +28,8 @@ $(function () {
             showLastLabel: true,
             floor: 59,
             ceiling: 65,
-            tickInterval: 1
+            tickInterval: 1,
+            offset: 15
         },
         yAxis: {
             tickPositions: [1,10,20,30,40,50],
@@ -133,4 +136,3 @@ $(function () {
        
     });
 });
-

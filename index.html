@@ -3,14 +3,33 @@
 
 <head>
     <title>Well Being Index 2015</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
 
 <body>
-    <div id="container"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+            <ul class="left-nav">
+                <li>Select a category</li>
+                <li>State Well-Being Rankings</li>
+                <li>Communities</li>
+                <li>Countries</li>
+                <li>Obesity</li>
+                <li>Older Americans</li>
+            </ul>
+        </div>
+        <div class="col-sm-10" id="container">
+            
+        </div>
+      </div>
+    </div>
+
     <!-- Site content goes here !-->
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/highcharts/highcharts.js"></script>
     <script src="bower_components/chroma-js/chroma.min.js"></script>
 

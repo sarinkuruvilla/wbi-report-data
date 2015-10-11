@@ -4,6 +4,10 @@ html,body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif !important;
+    hr {
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
     .container {
         min-width: 310px;
         height: 400px;
@@ -17,10 +21,26 @@ html,body {
             mix-blend-mode: multiply;
         }
     }
+    ul.left-nav {
+        padding-left: 5px;
+        text-align: right;
+        li {
+            list-style-type: none;
+        }
+    }
+    #container {
+        padding-left: 0px;
+    }
     table.history {
         text-align: center;
         color: #ccc;
+        margin-top: 5px;
+        
+        td {
+            padding-bottom: 2px;
+        }
         td.year-value {
+            padding: 0px 10px;
             color: #000;
             font-weight: bold;
         }

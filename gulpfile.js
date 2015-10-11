@@ -7,9 +7,6 @@ var gulp = require('gulp'),
     cssmin = require('gulp-cssmin'),
     concat = require('gulp-concat');
 
-
-
-
 // Static Server + watching scss/html files
 gulp.task('serve', ['less'], function() {
 
