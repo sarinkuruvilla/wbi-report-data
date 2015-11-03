@@ -121,7 +121,7 @@ $(function () {
         });
     };
     
-    getData('/data/state.json', initialChart);
+    getData('data/state.json', initialChart);
     
 
     $('a').click(function() {
