@@ -28,15 +28,18 @@ html,body {
     a:hover {
         text-decoration: none;
     }
-    a.active {
-        color: #ff6114;
-    }
+
     ul.left-nav {
         padding-left: 5px;
         text-align: right;
         li {
             text-align: right;
             list-style-type: none;
+            &.active {
+                a {
+                    color: #ff6114;
+                }
+            }
         }
     }
     #container {

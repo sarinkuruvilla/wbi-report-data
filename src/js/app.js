@@ -88,7 +88,6 @@ $(function () {
             options.xAxis[0] = data.xAxis;
             options.yAxis[0] = data.yAxis;
             options.series[0].data = data.data;
-
           })
           .fail(function() {
             console.log( "JSON error" );
@@ -104,6 +103,7 @@ $(function () {
     getData('data/state.json', initialChart);
     
     $('a').click(function() {
+        $(this).parent().addClass('active').siblings().removeClass('active');
         if ($(this).attr('data-url')) {
             var url = $(this).attr('data-url');
             getData(url, function(){
@@ -112,7 +112,6 @@ $(function () {
                 chart.yAxis[0].update(options.yAxis[0]);
                 chart.series[0].setData(options.series[0].data,false);
                 chart.redraw();
-                
 
             });
         }
