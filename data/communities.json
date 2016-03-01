@@ -1,6 +1,20 @@
 {   
+    "chart": {
+        "animation": {
+            "duration": 1500
+        }
+    },
     "xAxis": {
-        "min": 58
+        "title": {
+            "enabled": true,
+            "text": "Well-Being Index Score"
+        },
+        "tickPositions": [58,59,60,61,62,63,64,65],
+        "min": 58,
+        "max": 65,
+        "labels": {
+            "format": "{value}"
+        }
     },
     "yAxis": {
         "tickPositions": [1,20,40,60,80,100],

@@ -4,24 +4,6 @@ $(function () {
         chart: {
             renderTo: 'container',
             type: 'scatter',
-            // events: {
-            //     load: function () {
-                    
-            //         var chart = this,
-            //             each = Highcharts.each,
-            //             series = chart.series[0];
-                    
-            //         each(series.data, function(p, i) {
-            //             p.graphic.attr({
-            //                 translateY : 50;
-            //             });
-                        
-            //             p.graphic.attr()[chart.pointCount < 250 ? 'animate' : 'attr'](Highcharts.merge({
-            //                 translateY : 0;
-            //             }));
-            //         });
-            //     }
-            // },
             zoomType: 'xy',
             marginRight: 15,
             marginTop: 20,
@@ -49,8 +31,6 @@ $(function () {
             startOnTick: true,
             endOnTick: true,
             showLastLabel: true,
-            min: 59,
-            max: 65,
             tickInterval: 1,
             offset: 15
         },
@@ -123,7 +103,6 @@ $(function () {
     
     getData('data/state.json', initialChart);
     
-
     $('a').click(function() {
         if ($(this).attr('data-url')) {
             var url = $(this).attr('data-url');
@@ -131,10 +110,11 @@ $(function () {
                 chart.series[0].update(options.tooltip);
                 chart.xAxis[0].update(options.xAxis[0]);
                 chart.yAxis[0].update(options.yAxis[0]);
-                chart.series[0].setData(options.series[0].data);
+                chart.series[0].setData(options.series[0].data,false);
+                chart.redraw();
+                
 
             });
         }
-        // getJSON('data/communities.json');
     });
 });

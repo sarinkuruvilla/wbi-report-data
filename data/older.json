@@ -1,0 +1,86 @@
+{
+    "chart": {
+        "animation": {
+            "duration": 1500,
+            "easing": "easeOutBounce"
+        }
+    },
+    "xAxis": {
+        "title": {
+            "enabled": true,
+            "text": "Well-Being Index Score"
+        },
+        "tickPositions": [60,61,62,63,64,65,66,67],
+        "min": 60,
+        "max": 67,
+        "labels": {
+            "format": "{value}"
+        }
+    },
+    "yAxis": {
+        "tickPositions": [1,10,20,30,40,50],
+        "max": 50
+    },
+    "tooltip": {
+        "borderColor": "#ccc",
+        "backgroundColor": "#fff",
+        "borderRadius": 1,
+        "useHTML": true,
+        "hideDelay": 19000,
+        "headerFormat": "",
+        "pointFormat": "<b>{point.stateName}</b><br>2014 Rank: <b>{point.y}</b><br>2014 Well-Being Index Score: <b>{point.x}</b>",
+        "footerFormat": "</table>"
+    },
+    "data": [ 
+        {"x":66.83, "y":1,  "color": "rgba(32, 130, 199, 1)", "stateName": "Hawaii"},
+        {"x":65.17, "y":2,  "color": "rgba(32, 130, 199, 1)", "stateName": "Montana"},
+        {"x":65.07, "y":3,  "color": "rgba(32, 130, 199, 1)", "stateName": "South Dakota"},
+        {"x":64.91, "y":4,  "color": "rgba(32, 130, 199, 1)", "stateName": "Alaska"},
+        {"x":64.91, "y":5,  "color": "rgba(32, 130, 199, 1)", "stateName": "Iowa"},
+        {"x":64.88, "y":6,  "color": "rgba(32, 130, 199, 1)", "stateName": "New Hampshire"},
+        {"x":64.59, "y":7,  "color": "rgba(32, 130, 199, 1)", "stateName": "Utah"},
+        {"x":64.54, "y":8,  "color": "rgba(32, 130, 199, 1)", "stateName": "Oregon"},
+        {"x":64.47, "y":9,  "color": "rgba(32, 130, 199, 1)", "stateName": "New Mexico"},
+        {"x":64.46, "y":10, "color": "rgba(32, 130, 199, 1)", "stateName": "Connecticut"},
+        {"x":64.43, "y":11, "color": "rgba(38, 171, 225, 1)", "stateName": "Minnesota"},
+        {"x":64.42, "y":12, "color": "rgba(38, 171, 225, 1)", "stateName": "Colorado"},
+        {"x":64.40, "y":13, "color": "rgba(38, 171, 225, 1)", "stateName": "Idaho"},
+        {"x":64.33, "y":14, "color": "rgba(38, 171, 225, 1)", "stateName": "Nebraska"},
+        {"x":64.29, "y":15, "color": "rgba(38, 171, 225, 1)", "stateName": "Florida"},
+        {"x":64.22, "y":16, "color": "rgba(38, 171, 225, 1)", "stateName": "Delaware"},
+        {"x":64.15, "y":17, "color": "rgba(38, 171, 225, 1)", "stateName": "Wisconsin"},
+        {"x":64.12, "y":18, "color": "rgba(38, 171, 225, 1)", "stateName": "Arizona"},
+        {"x":64.05, "y":19, "color": "rgba(38, 171, 225, 1)", "stateName": "Wyoming"},
+        {"x":63.99, "y":20, "color": "rgba(38, 171, 225, 1)", "stateName": "Virginia"},
+        {"x":63.99, "y":21, "color": "rgba(116, 204, 216, 1)", "stateName": "South Carolina"},
+        {"x":63.95, "y":22, "color": "rgba(116, 204, 216, 1)", "stateName": "Texas"},
+        {"x":63.92, "y":23, "color": "rgba(116, 204, 216, 1)", "stateName": "California"},
+        {"x":63.91, "y":24, "color": "rgba(116, 204, 216, 1)", "stateName": "North Carolina"},
+        {"x":63.74, "y":25, "color": "rgba(116, 204, 216, 1)", "stateName": "Pennsylvania"},
+        {"x":63.68, "y":26, "color": "rgba(116, 204, 216, 1)", "stateName": "Washington"},
+        {"x":63.62, "y":27, "color": "rgba(116, 204, 216, 1)", "stateName": "Kansas"},
+        {"x":63.61, "y":28, "color": "rgba(116, 204, 216, 1)", "stateName": "Vermont"},
+        {"x":63.56, "y":29, "color": "rgba(116, 204, 216, 1)", "stateName": "Massachusetts"},
+        {"x":63.44, "y":30, "color": "rgba(116, 204, 216, 1)", "stateName": "Rhode Island"},
+        {"x":63.36, "y":31, "color": "rgba(187, 225, 206, 1)", "stateName": "North Dakota"},
+        {"x":63.31, "y":32, "color": "rgba(187, 225, 206, 1)", "stateName": "Michigan"},
+        {"x":63.25, "y":33, "color": "rgba(187, 225, 206, 1)", "stateName": "Maine"},
+        {"x":63.08, "y":34, "color": "rgba(187, 225, 206, 1)", "stateName": "Arkansas"},
+        {"x":63.07, "y":35, "color": "rgba(187, 225, 206, 1)", "stateName": "New York"},
+        {"x":63.04, "y":36, "color": "rgba(187, 225, 206, 1)", "stateName": "Maryland"},
+        {"x":62.97, "y":37, "color": "rgba(187, 225, 206, 1)", "stateName": "Illinois"},
+        {"x":62.97, "y":38, "color": "rgba(187, 225, 206, 1)", "stateName": "New Jersey"},
+        {"x":62.84,   "y":39, "color": "rgba(187, 225, 206, 1)", "stateName": "Missouri"},
+        {"x":62.73, "y":40, "color": "rgba(187, 225, 206, 1)", "stateName": "Georgia"},
+        {"x":62.68, "y":41, "color": "rgba(220, 233, 219, 1)", "stateName": "Louisiana"},
+        {"x":62.57, "y":42, "color": "rgba(220, 233, 219, 1)", "stateName": "Mississippi"},
+        {"x":62.54, "y":43, "color": "rgba(220, 233, 219, 1)", "stateName": "Tennessee"},
+        {"x":62.44, "y":44, "color": "rgba(220, 233, 219, 1)", "stateName": "Alabama"},
+        {"x":62.25, "y":45, "color": "rgba(220, 233, 219, 1)", "stateName": "Nevada"},
+        {"x":62.22, "y":46, "color": "rgba(220, 233, 219, 1)", "stateName": "Indiana"},
+        {"x":61.98, "y":47, "color": "rgba(220, 233, 219, 1)", "stateName": "Ohio"},
+        {"x":61.74,   "y":48, "color": "rgba(220, 233, 219, 1)", "stateName": "Oklahoma"},
+        {"x":61.38, "y":49, "color": "rgba(220, 233, 219, 1)", "stateName": "Kentucky"},
+        {"x":60.69,   "y":50, "color": "rgba(220, 233, 219, 1)", "stateName": "West Virginia"}
+    ]
+}

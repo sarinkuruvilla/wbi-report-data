@@ -1,0 +1,85 @@
+{   
+    "chart": {
+        "animation": {
+            "duration": 1500,
+            "easing": "easeOutBounce"
+        }
+    },
+    "xAxis": {
+        "title": {
+            "enabled": true,
+            "text": "Percent Obese"
+        },
+        "tickPositions": [36,34,32,30,28,26,24,22,20,18],
+        "min": 36,
+        "max": 18,
+        "labels": {
+            "format": "{value}%"
+        }
+    },
+    "yAxis": {
+        "tickPositions": [1,10,20,30,40,50],
+        "max": 50
+    },
+    "tooltip": {
+        "borderColor": "#ccc",
+        "backgroundColor": "#fff",
+        "borderadius": 1,
+        "useHTML": true,
+        "headerFormat": "",
+        "pointFormat": "<b>{point.StateName}</b><br>2014 Rank: {point.y}<br>2014 Well-Being Index Score: {point.x}<br><hr>Historical Data:<br><table class=\"history\"> <tr> <td></td> <td>2008</td> <td>2009</td> <td>2010</td> <td>2011</td> <td>2012</td> <td>2013</td> </tr> <tr> <td>Rank</td> <td class=\"year-value\">{point.Rank2008}</td> <td class=\"year-value\">{point.Rank2009}</td> <td class=\"year-value\">{point.Rank2010}</td> <td class=\"year-value\">{point.Rank2011}</td> <td class=\"year-value\">{point.Rank2012}</td> <td class=\"year-value\">{point.Rank2013}</td> </tr> <tr> <td>% Obese</td> <td class=\"year-value\">{point.Percent2008}</td> <td class=\"year-value\">{point.Percent2009}</td> <td class=\"year-value\">{point.Percent2010}</td> <td class=\"year-value\">{point.Percent2011}</td> <td class=\"year-value\">{point.Percent2012}</td> <td class=\"year-value\">{point.Percent2013}</td> </tr>",
+        "footerFormat": "</table>"
+    },
+    "data": [
+        {"x":19.0, "y":1, "color": "rgba(32, 130, 199, 1)", "StateName": "Hawaii", "Rank2013":9, "Percent2013":23.7, "Rank2012":20, "Percent2012": 25.7, "Rank2011": 10, "Percent2011": 23.3, "Rank2010": 2, "Percent2010": 20.4, "Rank2009": 1, "Percent2009": 19.4, "Rank2008": 1, "Percent2008": 18.0},
+        {"x":20.3, "y":2, "color": "rgba(32, 130, 199, 1)", "StateName": "Colorado", "Rank2013":2, "Percent2013":20.4, "Rank2012":1, "Percent2012": 18.7, "Rank2011": 1, "Percent2011": 18.5, "Rank2010": 1, "Percent2010": 20.0, "Rank2009": 2, "Percent2009": 19.5, "Rank2008": 2, "Percent2008": 18.2},
+        {"x":23.5, "y":3, "color": "rgba(32, 130, 199, 1)", "StateName": "Montana", "Rank2013":1, "Percent2013":19.6, "Rank2012":3, "Percent2012": 22.0, "Rank2011": 6, "Percent2011": 22.3, "Rank2010": 8, "Percent2010": 23.3, "Rank2009": 8, "Percent2009": 23.7, "Rank2008": 18, "Percent2008": 24.3},
+        {"x":23.9, "y":4, "color": "rgba(32, 130, 199, 1)", "StateName": "California", "Rank2013":8, "Percent2013":23.6, "Rank2012":5, "Percent2012": 23.1, "Rank2011": 7, "Percent2011": 22.5, "Rank2010": 5, "Percent2010": 22.6, "Rank2009": 5, "Percent2009": 23.4, "Rank2008": 9, "Percent2008": 22.8},
+        {"x":24.0, "y":5, "color": "rgba(32, 130, 199, 1)", "StateName": "Massachusetts", "Rank2013":5, "Percent2013":22.2, "Rank2012":2, "Percent2012": 21.5, "Rank2011": 4, "Percent2011": 22.2, "Rank2010": 4, "Percent2010": 22.5, "Rank2009": 3, "Percent2009": 22.8, "Rank2008": 4, "Percent2008": 21.5},
+        {"x":24.2, "y":6, "color": "rgba(32, 130, 199, 1)", "StateName": "Idaho", "Rank2013":23, "Percent2013":25.9, "Rank2012":10, "Percent2012": 24.4, "Rank2011": 31, "Percent2011": 27.1, "Rank2010": 15, "Percent2010": 25.1, "Rank2009": 23, "Percent2009": 26.5, "Rank2008": 16, "Percent2008": 24.0},
+        {"x":24.6, "y":7, "color": "rgba(32, 130, 199, 1)", "StateName": "South Dakota", "Rank2013":34, "Percent2013":28.3, "Rank2012":24, "Percent2012": 26.3, "Rank2011": 29, "Percent2011": 26.9, "Rank2010": 43, "Percent2010": 29.1, "Rank2009": 26, "Percent2009": 26.8, "Rank2008": 27, "Percent2008": 26.3},
+        {"x":24.7, "y":8, "color": "rgba(32, 130, 199, 1)", "StateName": "New York", "Rank2013":10, "Percent2013":24.0, "Rank2012":15, "Percent2012": 24.8, "Rank2011": 14, "Percent2011": 24.3, "Rank2010": 12, "Percent2010": 25.0, "Rank2009": 13, "Percent2009": 24.8, "Rank2008": 19, "Percent2008": 24.4},
+        {"x":24.8, "y":9, "color": "rgba(32, 130, 199, 1)", "StateName": "Minnesota", "Rank2013":4, "Percent2013":22.0, "Rank2012":14, "Percent2012": 24.7, "Rank2011": 11, "Percent2011": 23.5, "Rank2010": 17, "Percent2010": 25.2, "Rank2009": 17, "Percent2009": 25.2, "Rank2008": 11, "Percent2008": 22.9},
+        {"x":24.9, "y":10, "color": "rgba(32, 130, 199, 1)", "StateName": "Connecticut", "Rank2013":6, "Percent2013":23.2, "Rank2012":4, "Percent2012": 22.7, "Rank2011": 5, "Percent2011": 22.3, "Rank2010": 7, "Percent2010": 23.2, "Rank2009": 8, "Percent2009": 23.7, "Rank2008": 8, "Percent2008": 22.4},
+        {"x":25.1, "y":11, "color": "rgba(38, 171, 225, 1)", "StateName": "Utah", "Rank2013":11, "Percent2013":24.2, "Rank2012":6, "Percent2012": 23.9, "Rank2011": 3, "Percent2011": 21.6, "Rank2010": 3, "Percent2010": 21.9, "Rank2009": 4, "Percent2009": 22.9, "Rank2008": 6, "Percent2008": 22.0},
+        {"x":25.1, "y":12, "color": "rgba(38, 171, 225, 1)", "StateName": "Oregon", "Rank2013":15, "Percent2013":24.9, "Rank2012":19, "Percent2012": 25.4, "Rank2011": 20, "Percent2011": 25.4, "Rank2010": 20, "Percent2010": 26.2, "Rank2009": 22, "Percent2009": 26.0, "Rank2008": 24, "Percent2008": 25.9},
+        {"x":25.5, "y":13, "color": "rgba(38, 171, 225, 1)", "StateName": "Washington", "Rank2013":18, "Percent2013":25.0, "Rank2012":11, "Percent2012": 24.4, "Rank2011": 16, "Percent2011": 24.6, "Rank2010": 12, "Percent2010": 25.0, "Rank2009": 16, "Percent2009": 25.0, "Rank2008": 20, "Percent2008": 24.5},
+        {"x":25.9, "y":14, "color": "rgba(38, 171, 225, 1)", "StateName": "Maine", "Rank2013":14, "Percent2013":24.8, "Rank2012":31, "Percent2012": 27.5, "Rank2011": 18, "Percent2011": 24.9, "Rank2010": 31, "Percent2010": 28.0, "Rank2009": 27, "Percent2009": 27.2, "Rank2008": 21, "Percent2008": 24.9},
+        {"x":26.0, "y":15, "color": "rgba(38, 171, 225, 1)", "StateName": "Florida", "Rank2013":21, "Percent2013":25.6, "Rank2012":18, "Percent2012": 25.1, "Rank2011": 15, "Percent2011": 24.5, "Rank2010": 15, "Percent2010": 25.1, "Rank2009": 12, "Percent2009": 24.5, "Rank2008": 17, "Percent2008": 24.2},
+        {"x":26.2, "y":16, "color": "rgba(38, 171, 225, 1)", "StateName": "New Jersey", "Rank2013":17, "Percent2013":24.9, "Rank2012":9, "Percent2012": 24.4, "Rank2011": 8, "Percent2011": 22.5, "Rank2010": 11, "Percent2010": 24.2, "Rank2009": 8, "Percent2009": 23.7, "Rank2008": 13, "Percent2008": 23.3},
+        {"x":26.3, "y":17, "color": "rgba(38, 171, 225, 1)", "StateName": "Arizona", "Rank2013":22, "Percent2013":25.6, "Rank2012":7, "Percent2012": 24.1, "Rank2011": 17, "Percent2011": 24.7, "Rank2010": 12, "Percent2010": 25.0, "Rank2009": 11, "Percent2009": 23.9, "Rank2008": 11, "Percent2008": 22.9},
+        {"x":26.6, "y":18, "color": "rgba(38, 171, 225, 1)", "StateName": "Maryland", "Rank2013":16, "Percent2013":24.9, "Rank2012":28, "Percent2012": 27.0, "Rank2011": 27, "Percent2011": 26.8, "Rank2010": 24, "Percent2010": 26.8, "Rank2009": 32, "Percent2009": 27.9, "Rank2008": 33, "Percent2008": 26.8},
+        {"x":26.8, "y":19, "color": "rgba(38, 171, 225, 1)", "StateName": "Nevada", "Rank2013":3, "Percent2013":21.1, "Rank2012":16, "Percent2012": 24.9, "Rank2011": 13, "Percent2011": 23.9, "Rank2010": 21, "Percent2010": 26.3, "Rank2009": 7, "Percent2009": 23.6, "Rank2008": 14, "Percent2008": 23.4},
+        {"x":26.8, "y":20, "color": "rgba(38, 171, 225, 1)", "StateName": "Vermont", "Rank2013":12, "Percent2013":24.8, "Rank2012":21, "Percent2012": 25.7, "Rank2011": 32, "Percent2011": 27.1, "Rank2010": 10, "Percent2010": 23.9, "Rank2009": 13, "Percent2009": 24.8, "Rank2008": 7, "Percent2008": 22.1},
+        {"x":27.1, "y":21, "color": "rgba(116, 204, 216, 1)", "StateName": "Georgia", "Rank2013":33, "Percent2013":28.3, "Rank2012":37, "Percent2012": 28.7, "Rank2011": 22, "Percent2011": 26.1, "Rank2010": 25, "Percent2010": 26.8, "Rank2009": 31, "Percent2009": 27.8, "Rank2008": 25, "Percent2008": 26.0},
+        {"x":27.1, "y":22, "color": "rgba(116, 204, 216, 1)", "StateName": "New Hampshire", "Rank2013":20, "Percent2013":25.5, "Rank2012":17, "Percent2012": 25.1, "Rank2011": 12, "Percent2011": 23.5, "Rank2010": 22, "Percent2010": 26.6, "Rank2009": 5, "Percent2009": 23.4, "Rank2008": 3, "Percent2008": 20.9},
+        {"x":27.2, "y":23, "color": "rgba(116, 204, 216, 1)", "StateName": "Virginia", "Rank2013":19, "Percent2013":25.2, "Rank2012":23, "Percent2012": 26.2, "Rank2011": 26, "Percent2011": 26.8, "Rank2010": 18, "Percent2010": 25.8, "Rank2009": 17, "Percent2009": 25.2, "Rank2008": 22, "Percent2008": 25.0},
+        {"x":27.2, "y":24, "color": "rgba(116, 204, 216, 1)", "StateName": "Alaska", "Rank2013":40, "Percent2013":30.1, "Rank2012":27, "Percent2012": 26.4, "Rank2011": 19, "Percent2011": 25.2, "Rank2010": 29, "Percent2010": 27.6, "Rank2009": 41, "Percent2009": 29.1, "Rank2008": 23, "Percent2008": 25.4},
+        {"x":27.3, "y":25, "color": "rgba(116, 204, 216, 1)", "StateName": "Illinois", "Rank2013":25, "Percent2013":26.4, "Rank2012":22, "Percent2012": 26.0, "Rank2011": 25, "Percent2011": 26.6, "Rank2010": 22, "Percent2010": 26.6, "Rank2009": 24, "Percent2009": 26.6, "Rank2008": 26, "Percent2008": 26.2},
+        {"x":27.4, "y":26, "color": "rgba(116, 204, 216, 1)", "StateName": "Wyoming", "Rank2013":28, "Percent2013":27.8, "Rank2012":13, "Percent2012": 24.7, "Rank2011": 21, "Percent2011": 25.9, "Rank2010": 19, "Percent2010": 26.1, "Rank2009": 35, "Percent2009": 28.5, "Rank2008": 5, "Percent2008": 21.9},
+        {"x":27.9, "y":27, "color": "rgba(116, 204, 216, 1)", "StateName": "Rhode Island", "Rank2013":13, "Percent2013":24.8, "Rank2012":8, "Percent2012": 24.3, "Rank2011": 2, "Percent2011": 21.6, "Rank2010": 9, "Percent2010": 23.5, "Rank2009": 17, "Percent2009": 25.2, "Rank2008": 15, "Percent2008": 23.8},
+        {"x":28.0, "y":28, "color": "rgba(116, 204, 216, 1)", "StateName": "New Mexico", "Rank2013":7, "Percent2013":23.5, "Rank2012":12, "Percent2012": 24.6, "Rank2011": 9, "Percent2011": 23.3, "Rank2010": 6, "Percent2010": 22.9, "Rank2009": 13, "Percent2009": 24.8, "Rank2008": 9, "Percent2008": 22.8},
+        {"x":28.3, "y":29, "color": "rgba(116, 204, 216, 1)", "StateName": "North Carolina", "Rank2013":31, "Percent2013":28.1, "Rank2012":40, "Percent2012": 28.9, "Rank2011": 28, "Percent2011": 26.8, "Rank2010": 33, "Percent2010": 28.1, "Rank2009": 43, "Percent2009": 29.2, "Rank2008": 30, "Percent2008": 26.7},
+        {"x":28.4, "y":30, "color": "rgba(116, 204, 216, 1)", "StateName": "Tennessee", "Rank2013":44, "Percent2013":31.3, "Rank2012":44, "Percent2012": 29.6, "Rank2011": 38, "Percent2011": 28.6, "Rank2010": 41, "Percent2010": 28.9, "Rank2009": 43, "Percent2009": 29.2, "Rank2008": 36, "Percent2008": 27.2},
+        {"x":28.5, "y":31, "color": "rgba(187, 225, 206, 1)", "StateName": "Delaware", "Rank2013":48, "Percent2013":34.3, "Rank2012":26, "Percent2012": 26.3, "Rank2011": 49, "Percent2011": 32.7, "Rank2010": 29, "Percent2010": 27.6, "Rank2009": 46, "Percent2009": 29.4, "Rank2008": 50, "Percent2008": 32.8},
+        {"x":28.6, "y":32, "color": "rgba(187, 225, 206, 1)", "StateName": "North Dakota", "Rank2013":24, "Percent2013":26.0, "Rank2012":32, "Percent2012": 27.8, "Rank2011": 37, "Percent2011": 28.5, "Rank2010": 34, "Percent2010": 28.2, "Rank2009": 27, "Percent2009": 27.2, "Rank2008": 34, "Percent2008": 27.0},
+        {"x":28.6, "y":33, "color": "rgba(187, 225, 206, 1)", "StateName": "Pennsylvania", "Rank2013":32, "Percent2013":28.2, "Rank2012":35, "Percent2012": 27.9, "Rank2011": 34, "Percent2011": 28.0, "Rank2010": 36, "Percent2010": 28.3, "Rank2009": 33, "Percent2009": 28.0, "Rank2008": 36, "Percent2008": 27.2},
+        {"x":28.6, "y":34, "color": "rgba(187, 225, 206, 1)", "StateName": "South Carolina", "Rank2013":45, "Percent2013":31.4, "Rank2012":33, "Percent2012": 27.9, "Rank2011": 42, "Percent2011": 29.1, "Rank2010": 46, "Percent2010": 30.3, "Rank2009": 34, "Percent2009": 28.3, "Rank2008": 39, "Percent2008": 27.6},
+        {"x":28.8, "y":35, "color": "rgba(187, 225, 206, 1)", "StateName": "Nebraska", "Rank2013":26, "Percent2013":27.1, "Rank2012":34, "Percent2012": 27.9, "Rank2011": 24, "Percent2011": 26.6, "Rank2010": 37, "Percent2010": 28.5, "Rank2009": 25, "Percent2009": 26.7, "Rank2008": 38, "Percent2008": 27.4},
+        {"x":28.8, "y":36, "color": "rgba(187, 225, 206, 1)", "StateName": "Wisconsin", "Rank2013":37, "Percent2013":29.0, "Rank2012":29, "Percent2012": 27.1, "Rank2011": 23, "Percent2011": 26.3, "Rank2010": 31, "Percent2010": 28.0, "Rank2009": 30, "Percent2009": 27.6, "Rank2008": 30, "Percent2008": 26.7},
+        {"x":29.3, "y":37, "color": "rgba(187, 225, 206, 1)", "StateName": "Kansas", "Rank2013":27, "Percent2013":27.2, "Rank2012":25, "Percent2012": 26.3, "Rank2011": 35, "Percent2011": 28.2, "Rank2010": 27, "Percent2010": 26.9, "Rank2009": 17, "Percent2009": 25.2, "Rank2008": 29, "Percent2008": 26.5},
+        {"x":29.7, "y":38, "color": "rgba(187, 225, 206, 1)", "StateName": "Texas", "Rank2013":38, "Percent2013":29.8, "Rank2012":39, "Percent2012": 28.9, "Rank2011": 39, "Percent2011": 28.7, "Rank2010": 37, "Percent2010": 28.5, "Rank2009": 40, "Percent2009": 28.9, "Rank2008": 35, "Percent2008": 27.1},
+        {"x":29.9, "y":39, "color": "rgba(187, 225, 206, 1)", "StateName": "Ohio", "Rank2013":43, "Percent2013":30.9, "Rank2012":43, "Percent2012": 29.5, "Rank2011": 43, "Percent2011": 29.3, "Rank2010": 41, "Percent2010": 28.9, "Rank2009": 39, "Percent2009": 28.8, "Rank2008": 39, "Percent2008": 27.6},
+        {"x":30.8, "y":40, "color": "rgba(187, 225, 206, 1)", "StateName": "Michigan", "Rank2013":35, "Percent2013":28.9, "Rank2012":36, "Percent2012": 28.5, "Rank2011": 33, "Percent2011": 27.6, "Rank2010": 37, "Percent2010": 28.5, "Rank2009": 35, "Percent2009": 28.5, "Rank2008": 30, "Percent2008": 26.7},
+        {"x":30.9, "y":41, "color": "rgba(220, 233, 219, 1)", "StateName": "Missouri", "Rank2013":36, "Percent2013":29.0, "Rank2012":30, "Percent2012": 27.2, "Rank2011": 30, "Percent2011": 27.0, "Rank2010": 28, "Percent2010": 27.5, "Rank2009": 29, "Percent2009": 27.3, "Rank2008": 41, "Percent2008": 28.0},
+        {"x":31.1, "y":42, "color": "rgba(220, 233, 219, 1)", "StateName": "Iowa", "Rank2013":30, "Percent2013":28.1, "Rank2012":41, "Percent2012": 29.0, "Rank2011": 36, "Percent2011": 28.3, "Rank2010": 34, "Percent2010": 28.2, "Rank2009": 37, "Percent2009": 28.6, "Rank2008": 28, "Percent2008": 26.4},
+        {"x":31.4, "y":43, "color": "rgba(220, 233, 219, 1)", "StateName": "Indiana", "Rank2013":39, "Percent2013":29.9, "Rank2012":38, "Percent2012": 28.8, "Rank2011": 44, "Percent2011": 29.4, "Rank2010": 37, "Percent2010": 28.5, "Rank2009": 41, "Percent2009": 29.1, "Rank2008": 43, "Percent2008": 28.1},
+        {"x":31.5, "y":44, "color": "rgba(220, 233, 219, 1)", "StateName": "Kentucky", "Rank2013":42, "Percent2013":30.6, "Rank2012":45, "Percent2012": 29.7, "Rank2011": 45, "Percent2011": 29.5, "Rank2010": 49, "Percent2010": 32.0, "Rank2009": 45, "Percent2009": 29.3, "Rank2008": 45, "Percent2008": 29.2},
+        {"x":32.1, "y":45, "color": "rgba(220, 233, 219, 1)", "StateName": "Alabama", "Rank2013":29, "Percent2013":28.1, "Rank2012":46, "Percent2012": 30.4, "Rank2011": 40, "Percent2011": 28.9, "Rank2010": 44, "Percent2010": 29.2, "Rank2009": 47, "Percent2009": 29.5, "Rank2008": 44, "Percent2008": 28.3},
+        {"x":32.6, "y":46, "color": "rgba(220, 233, 219, 1)", "StateName": "Oklahoma", "Rank2013":41, "Percent2013":30.5, "Rank2012":42, "Percent2012": 29.2, "Rank2011": 41, "Percent2011": 29.1, "Rank2010": 45, "Percent2010": 29.8, "Rank2009": 38, "Percent2009": 28.7, "Rank2008": 41, "Percent2008": 28.0},
+        {"x":33.0, "y":47, "color": "rgba(220, 233, 219, 1)", "StateName": "Arkansas", "Rank2013":46, "Percent2013":32.3, "Rank2012":48, "Percent2012": 31.4, "Rank2011": 46, "Percent2011": 29.7, "Rank2010": 46, "Percent2010": 30.3, "Rank2009": 48, "Percent2009": 30.2, "Rank2008": 46, "Percent2008": 30.2},
+        {"x":33.2, "y":48, "color": "rgba(220, 233, 219, 1)", "StateName": "Louisiana", "Rank2013":47, "Percent2013":32.7, "Rank2012":47, "Percent2012": 30.9, "Rank2011": 47, "Percent2011": 30.3, "Rank2010": 46, "Percent2010": 30.3, "Rank2009": 50, "Percent2009": 31.6, "Rank2008": 48, "Percent2008": 30.9},
+        {"x":34.3, "y":49, "color": "rgba(220, 233, 219, 1)", "StateName": "West Virginia", "Rank2013":49, "Percent2013":34.4, "Rank2012":50, "Percent2012": 33.5, "Rank2011": 50, "Percent2011": 35.3, "Rank2010": 50, "Percent2010": 33.5, "Rank2009": 49, "Percent2009": 31.3, "Rank2008": 47, "Percent2008": 30.5},
+        {"x":35.2, "y":50, "color": "rgba(220, 233, 219, 1)", "StateName": "Mississippi", "Rank2013":50, "Percent2013":35.4, "Rank2012":49, "Percent2012": 32.0, "Rank2011": 48, "Percent2011": 31.9, "Rank2010": 26, "Percent2010": 26.9, "Rank2009": 21, "Percent2009": 25.4, "Rank2008": 49, "Percent2008": 31.6}
+    ]
+}
